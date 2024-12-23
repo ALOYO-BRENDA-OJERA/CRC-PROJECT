@@ -1,0 +1,113 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+/* Apply the font family globally */
+body {
+    font-family: 'Jacques François', cursive;
+    font-weight: 10px;
+}
+
+/* Marquee Styles */
+.trending-marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto; /* Allow the width to adjust based on content */
+    margin-left: 20px; /* Space between marquee and button */
+    position: absolute;
+    left: 50%; /* Position it just outside the screen (right) */
+    animation: marquee 15s linear infinite; /* Animation duration and type */
+    
+}
+
+.trending-text{
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+/* Keyframes for the marquee effect */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to the left side (off-screen) */
+    }
+}
+/* Container Styles */
+.container {
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+/* Text Centering */
+.text-center {
+    text-align: center;
+    font-family: 'Jacques Francois', sans-serif;
+}
+
+/* Button Styles */
+.top-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.top-button {
+    background-color: #2A66D7; /* Blue color */
+    color: white;
+    font-size: 20px;
+    margin-right: 1030px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    font-family: 'Jacques Francois', sans-serif;
+    text-align: center; /* Center align the text */
+    padding: 10px 30px; /* Add space around the text */
+}
+
+.top-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Word of the Month Section */
+.word-of-the-month {
+    background-color: #e8ecf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    /* padding-bottom: 5px; */
+    font-family: 'Jacques Francois', sans-serif;
+    height: 700px;
+}
+
+/* Word of the Month Graphic */
+.word-of-the-month-graphic {
+    width: 1200px;
+    height: 500px;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    margin: 0 auto; /* Centers the graphic horizontally */
+    font-family: 'Jacques Francois', sans-serif;
+}
+
+.word-of-the-month-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Other Elements Styling */
+h5 {
+    font-weight: bold;
+    font-family: 'Jacques Francois', sans-serif;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    font-family: 'Jacques Francois', sans-serif;
+}
