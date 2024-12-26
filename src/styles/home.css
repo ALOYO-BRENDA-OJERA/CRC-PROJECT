@@ -87,27 +87,35 @@ h1, h2, h3, h4, h5, h6, p, span, a, .trending-text, .church-heading, .top-button
     padding-bottom: 10px;
 }
 
-/* Word of the Month Graphic */
 .word-of-the-month-graphic {
-    width: 1000px;
-    height: 400px;
-    background-color: #c0c0c0;
+    width: 100%;
+    max-width: 1000px;
+    height: 400px; /* Maintains the desired height */
+    /* background-color: #c0c0c0; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto; /* Centers the graphic */
+    overflow: hidden; /* Ensures the image doesn't overflow */
+    border-radius: 8px; /* Optional: Adds rounded corners */
 }
 
 .word-of-the-month-img {
-    max-width: 100%;
-    height: auto;
+    width: 800px;
+    height: 400px;
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+    border-radius: 8px; /* Matches the graphic container */
+   
 }
 
 /* Heading Styles */
 .church-heading {
     margin-top: 1px;
     margin-bottom: 10px;
+    font-weight: 10px;
+    font-size: 16px;
 }
 
 /* Other Elements Styling */
@@ -119,43 +127,33 @@ p {
 .button-container {
     display: flex;
     align-items: center; /* Center items vertically */
-    justify-content: center; /* Center the buttons horizontally */
-    margin-top: 20px; /* Add some space above the button container */
-    height: 900px; /* Set the height of the button container */
-    background-color: white; /* Optional: Add a background color */
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px; /* Space above container */
+    height: 900px; /* Height of container */
+    background-color: white; /* Optional background */
+    gap: 50px; /* Space between buttons */
 }
-
 .left-button {
-    padding: 10px 20px; /* Add padding for better button size */
-    font-size: 16px; /* Adjust font size */
-    cursor: pointer; /* Change cursor to pointer */
-    border: none; /* Remove default border */
-    background-color: #007bff; /* Button background color */
-    color: white; /* Button text color */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-    margin-right: 190px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #2A66D7;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 30%;
+    
 }
 
 .right-button {
-    padding: 10px 20px; /* Add padding for better button size */
-    font-size: 16px; /* Adjust font size */
-    cursor: pointer; /* Change cursor to pointer */
-    border: none; /* Remove default border */
-    background-color: #007bff; /* Button background color */
-    color: white; /* Button text color */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-    margin-left: 200px;
-}
-
-.left-button:hover, .right-button:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-}
-
-.vertical-line {
-    width: 1px; /* Width of the vertical line */
-    height: 100%; /* Ensure this line stretches */
-    background-color: #ccc; /* Color of the vertical line */
-    margin: 0 20px; /* Space around the line */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color:#2A66D7;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 160px;
 }

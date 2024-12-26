@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/home.css"; // Import the external CSS file
+import wordImage from "../assets/images/word6.jpeg"; // Import the image
 
 const HomePage = () => {
   const [wordOfMonth, setWordOfMonth] = useState(null);
@@ -9,7 +10,8 @@ const HomePage = () => {
     const fetchData = async () => {
       // Example data from backend (you will replace this with real API call)
       setWordOfMonth({
-        graphic: "/path/to/word-of-the-month.jpg", // Replace with real backend data
+        graphic: wordImage, // Use the imported image
+        link: "https://example.com/word-of-the-month", // Placeholder link for now
         trendingText: "Special miracle night-19th October", // Placeholder text for now
       });
     };
@@ -39,11 +41,13 @@ const HomePage = () => {
             <div className="graphic-placeholder word-of-the-month-graphic">
               {/* Placeholder for Word of the Month graphic */}
               {wordOfMonth ? (
-                <img
-                  src={wordOfMonth.graphic}
-                  alt="Word of the Month"
-                  className="word-of-the-month-img"
-                />
+                <a href={wordOfMonth.link} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={wordOfMonth.graphic}
+                    alt="Word of the Month"
+                    className="word-of-the-month-img"
+                  />
+                </a>
               ) : (
                 <p>Loading Word of the Month...</p>
               )}
@@ -55,7 +59,7 @@ const HomePage = () => {
 
         {/* New Div with Buttons */}
         <div className="button-container" style={{ height: '100px', display: 'flex', alignItems: 'center' }}>
-          <button className="left-button">Christos Rhema  Ministry Events</button>
+          <button className="left-button">Christos Rhema Ministry Events</button>
           <div className="vertical-line" style={{ width: '1px', height: '50%', backgroundColor: '#ccc', margin: '0 20px' }}></div>
           <button className="right-button">Pray with Pastor David</button>
         </div>
