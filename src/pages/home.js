@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/home.css"; // Import the external CSS file
-import wordImage from "../assets/images/word6.jpeg"; // Import the image
+import wordImage from "../assets/images/word6.jpeg"; // Import the word of the month image
+import eventImage from "../assets/images/word2.jpeg"; // Import the event image
 
 const HomePage = () => {
   const [wordOfMonth, setWordOfMonth] = useState(null);
@@ -57,11 +58,29 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* New Div with Buttons */}
-        <div className="button-container" style={{ height: '100px', display: 'flex', alignItems: 'center' }}>
-          <button className="left-button">Christos Rhema Ministry Events</button>
+        {/* New Div with Buttons and Information Section */}
+        <div className="button-container" style={{ display: 'flex', alignItems: 'flex-start', marginTop: '20px' }}>
+          <div >
+            <button className="left-button">Christos Rhema Ministry Events</button>
+            {/* Image and Text Section */}
+            <div >
+              <img
+                src={eventImage} // Use the imported event image here
+                alt="Event Poster"
+                className="event-poster"
+                
+              />
+              <div className="event-details">
+                <p>Date: Thursday, December 26, 2024</p>
+                <p>Highlights: Trusting God's Promises: Focusing on key scriptures that encourage us to rely on God’s promises, especially when circumstances seem overwhelming. Emphasis on verses like Isaiah 41:10 and Philippians 4:6-7.</p>
+              </div>
+            </div>
+          </div>
           <div className="vertical-line" style={{ width: '1px', height: '50%', backgroundColor: '#ccc', margin: '0 20px' }}></div>
-          <button className="right-button">Pray with Pastor David</button>
+          <div className="right-section">
+            <button className="right-button">Pray with Pastor David</button>
+            {/* Add other information here */}
+          </div>
         </div>
       </div>
     </div>
