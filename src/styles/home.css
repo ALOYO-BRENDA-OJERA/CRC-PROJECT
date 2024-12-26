@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, .trending-text, .church-heading, .top-button
     overflow: hidden;
     white-space: nowrap;
     width: auto;
-    margin-left: 45px;
+    margin-left: 60px;
     position: absolute;
     left: 50%;
     animation: marquee 15s linear infinite;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, .trending-text, .church-heading, .top-button
 /* Keyframes for the marquee effect */
 @keyframes marquee {
     0% {
-        transform: translateX(85%);
+        transform: translateX(80%);
     }
     100% {
         transform: translateX(-100%);
