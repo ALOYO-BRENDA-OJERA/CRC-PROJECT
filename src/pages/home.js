@@ -49,8 +49,15 @@ const HomePage = () => {
               )}
             </div>
             {/* Move the heading here */}
-            <h1 className="church-heading">AN EMBODIMENT OF CHRIST'S LOVE. </h1>
+            <h1 className="church-heading">AN EMBODIMENT OF CHRIST'S LOVE.</h1>
           </div>
+        </div>
+
+        {/* New Div with Buttons */}
+        <div className="button-container" style={{ height: '100px', display: 'flex', alignItems: 'center' }}>
+          <button className="left-button">Christos Rhema  Ministry Events</button>
+          <div className="vertical-line" style={{ width: '1px', height: '50%', backgroundColor: '#ccc', margin: '0 20px' }}></div>
+          <button className="right-button">Pray with Pastor David</button>
         </div>
       </div>
     </div>

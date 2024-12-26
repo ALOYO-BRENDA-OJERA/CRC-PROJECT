@@ -115,3 +115,47 @@ p {
     font-size: 14px;
     color: #555;
 }
+
+.button-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Add some space above the button container */
+    height: 900px; /* Set the height of the button container */
+    background-color: white; /* Optional: Add a background color */
+}
+
+.left-button {
+    padding: 10px 20px; /* Add padding for better button size */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer */
+    border: none; /* Remove default border */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-right: 190px;
+}
+
+.right-button {
+    padding: 10px 20px; /* Add padding for better button size */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer */
+    border: none; /* Remove default border */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-left: 200px;
+}
+
+.left-button:hover, .right-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.vertical-line {
+    width: 1px; /* Width of the vertical line */
+    height: 100%; /* Ensure this line stretches */
+    background-color: #ccc; /* Color of the vertical line */
+    margin: 0 20px; /* Space around the line */
+}
