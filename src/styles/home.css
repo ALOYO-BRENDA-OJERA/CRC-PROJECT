@@ -199,9 +199,9 @@ margin-right:65px
 /* Highlight styling for Date and Highlights */
 .event-details p{
     margin: 0; /* Remove default margin */
-    line-height: 1.9; /* Better readability */
+    line-height: 1.6; /* Better readability */
     color: black; /* Text color */
-    font-size: 20px; /* Font size for details */
+    font-size: 18px; /* Font size for details */
     
 }
 
@@ -218,6 +218,9 @@ margin-right:65px
     border-radius: 10px; /* Optional: Rounded corners */
     margin-top: 10px; /* Space above the poster */
 }
+
+
+
 
 /* PASTOR SECTION */
 .pastor-section {
@@ -237,13 +240,63 @@ margin-right:65px
 }
 
 .pastor-text {
-    font-size: 20px; /* Font size for the text */
+    font-size: 16px; /* Font size for the text */
     color: black; /* Text color */
-    line-height: 1.5; /* Line height for better readability */
+    line-height: 1.6; /* Line height for better readability */
     text-align: center; /* Center text within the text container */
+    max-height: 10em;
 }
 
 .pastor-text p {
     margin: 0; /* Remove default margin for paragraphs */
-    font-size: 20px;
+    font-size: 17px;
+}
+
+
+/* CORNET SECTION */
+.cornet {
+    margin: 20px; /* Add margin around the entire section */
+    padding: 20px; /* Add padding inside the section */
+    background-color: #f9f9f9; /* Light background color for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 500px;
+}
+
+.cornet-button {
+    background-color: #2A66D7; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners for the button */
+    font-size: 16px; /* Button font size */
+    padding: 10px; /* Padding inside the button */
+    width: 150px; /* Fixed width for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 10px; /* Space below the button */
+}
+
+.cornet-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.cornet h6 {
+    margin: 10px 0; /* Margin above and below the heading */
+    font-size: 18px; /* Font size for the heading */
+    color: #333; /* Dark color for the heading */
+    margin-right: 210px;
+}
+
+.cornet p {
+    margin: 10px 0; /* Margin above and below the paragraph */
+    font-size: 14px; /* Font size for the paragraph */
+    color: #555; /* Slightly lighter color for the paragraph text */
+    line-height: 1.6; /* Line height for better readability */
+}
+.read-button{
+    border-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    margin-right: 400px;
 }
