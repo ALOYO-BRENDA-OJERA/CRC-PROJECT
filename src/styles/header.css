@@ -28,8 +28,8 @@
 }
 
 .logo img {
-  width: 80px; /* Adjust the size of the logo */
-  height: 85px; /* Maintain the aspect ratio */
+  width: 70px; /* Adjust the size of the logo */
+  height: 70px; /* Maintain the aspect ratio */
   border-radius: 30%;
   margin-bottom: 5px;
 }
@@ -43,14 +43,14 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 90px; /* Adjust space between navigation items */
+  gap: 50px; /* Adjust space between navigation items */
   margin: 0;
   padding: 0;
 }
 
 .nav-links li {
   display: inline;
-  font-size: 20.9px;
+  font-size: 18px;
 }
 
 .nav-links li a {
@@ -90,7 +90,7 @@
   }
 
   .nav-links li a {
-    font-size: 18px; /* Adjust font size for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
   }
 
   .menu-toggle {

@@ -1,73 +1,79 @@
 /* Import the font */
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 /* Apply the font family globally */
 body {
-    font-family: 'Jacques François', cursive;
-    font-weight: 10px;
+    font-family: 'Poppins', sans-serif;  /* Apply Poppins font */
+    font-weight: 300;  /* Use light weight */
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure all text elements use the same font family */
+h1, h2, h3, h4, h5, h6, p, span, a, .trending-text, .church-heading, .top-button {
+    font-family: 'Poppins', sans-serif;  /* Apply font to text elements */
 }
 
 /* Marquee Styles */
 .trending-marquee {
     overflow: hidden;
     white-space: nowrap;
-    width: auto; /* Allow the width to adjust based on content */
-    margin-left: 20px; /* Space between marquee and button */
+    width: auto;
+    margin-left: 45px;
     position: absolute;
-    left: 50%; /* Position it just outside the screen (right) */
-    animation: marquee 15s linear infinite; /* Animation duration and type */
-    
+    left: 50%;
+    animation: marquee 15s linear infinite;
 }
 
-.trending-text{
+.trending-text {
     font-size: 20px;
-    font-weight:bolder;
+    font-weight: 400;  /* Light font weight */
 }
 
 /* Keyframes for the marquee effect */
 @keyframes marquee {
     0% {
-        transform: translateX(100%); /* Start off-screen to the right */
+        transform: translateX(85%);
     }
     100% {
-        transform: translateX(-100%); /* Move to the left side (off-screen) */
+        transform: translateX(-100%);
     }
 }
+
 /* Container Styles */
 .container {
     margin-right: 160px;
     margin-left: 160px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Text Centering */
 .text-center {
     text-align: center;
-    font-family: 'Jacques Francois', sans-serif;
+    margin-top: 0;
 }
 
 /* Button Styles */
 .top-button-container {
     text-align: center;
-    margin-top: 20px;
 }
 
 .top-button {
-    background-color: #2A66D7; /* Blue color */
+    background-color: #2A66D7;
     color: white;
-    font-size: 20px;
-    margin-right: 1030px;
+    font-size: 16px;
     border: none;
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s ease;
-    margin-bottom: 10px;
-    font-family: 'Jacques Francois', sans-serif;
-    text-align: center; /* Center align the text */
-    padding: 10px 30px; /* Add space around the text */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 10px 30px;
+    margin-right: 730px;
 }
-
 .top-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
 /* Word of the Month Section */
@@ -76,23 +82,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 650px;
-    /* padding-bottom: 5px; */
-    font-family: 'Jacques Francois', sans-serif;
-    height: 700px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Word of the Month Graphic */
 .word-of-the-month-graphic {
-    width: 1200px;
-    height: 500px;
+    width: 1000px;
+    height: 400px;
     background-color: #c0c0c0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 20px;
-    margin: 0 auto; /* Centers the graphic horizontally */
-    font-family: 'Jacques Francois', sans-serif;
+    margin-top: 10px;
+    margin-left: 100px;
 }
 
 .word-of-the-month-img {
@@ -100,14 +104,14 @@ body {
     height: auto;
 }
 
-/* Other Elements Styling */
-h5 {
-    font-weight: bold;
-    font-family: 'Jacques Francois', sans-serif;
+/* Heading Styles */
+.church-heading {
+    margin-top: 1px;
+    margin-bottom: 10px;
 }
 
+/* Other Elements Styling */
 p {
     font-size: 14px;
     color: #555;
-    font-family: 'Jacques Francois', sans-serif;
 }

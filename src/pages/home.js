@@ -49,7 +49,7 @@ const HomePage = () => {
               )}
             </div>
             {/* Move the heading here */}
-            <h1 className="church-heading">CHRISTOS RHEMA CHURCH</h1>
+            <h1 className="church-heading">AN EMBODIMENT OF CHRIST'S LOVE. </h1>
           </div>
         </div>
       </div>
