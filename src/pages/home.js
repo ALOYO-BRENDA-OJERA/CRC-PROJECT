@@ -3,6 +3,8 @@ import "../styles/home.css"; // Import the external CSS file
 import wordImage from "../assets/images/word6.jpeg"; // Word of the month image
 import eventImage from "../assets/images/word2.jpeg"; // Event image
 import pastorImage from "../assets/images/pastor1.jpeg"; // Pastor's image
+import testimonyImage1 from "../assets/images/testimonies1.jpg"; // First testimony image
+import testimonyImage2 from "../assets/images/testimony2.jpg"; // Second testimony image
 
 const HomePage = () => {
   const [wordOfMonth, setWordOfMonth] = useState(null);
@@ -114,6 +116,56 @@ const HomePage = () => {
         </h2>
         <hr className="divider" />
       </div>
+
+      {/* Testimony Section */}
+<div className="testimony-content">
+  <button className="testimony-button">Christos Rhema Testimonies</button>
+  <div className="testimony-container">
+    {/* Left Testimony */}
+    <div className="testimony-left">
+      <img
+        src={testimonyImage1}
+        alt="Testimony 1"
+        className="testimony-image"
+      />
+      <p className="testimony-title">
+        Testimony: From joblessness to abundant blessings
+      </p>
+      <p>
+        During the darkest moments, when hope seemed distant, He provided
+        strength I didn't know I had. His timing was perfect, and in His
+        grace, I found opportunities where there once seemed to be none.
+        Every setback became a setup for a greater breakthrough, and
+        every trial was a lesson in trust. Today, I stand as a living
+        testimony of His unfailing love and faithfulness, grateful for
+        His miraculous hand that guided me from hardship to blessings
+        beyond measure.
+      </p>
+    </div>
+
+    {/* Vertical Divider */}
+    <div className="vertical-divider"></div>
+
+    {/* Right Testimony */}
+    <div className="testimony-right">
+      <img
+        src={testimonyImage2}
+        alt="Testimony 2"
+        className="testimony-image"
+      />
+      <p className="testimony-title">
+        Testimony: From pain to healing and restoration
+      </p>
+      <p>
+        Healed from a pain I thought would never end, God restored my life
+        piece by piece. He turned my despair into hope, my weakness into
+        strength, and transformed my scars into a beautiful testimony of
+        His healing and faithfulness.
+      </p>
+      <button className="more">Click for more...</button>
+    </div>
+  </div>
+</div>
     </div>
   );
 };

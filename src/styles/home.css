@@ -340,9 +340,110 @@ margin-right:65px
   }
   
   .digital-library-heading {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+    text-align: left;
+    font-size: 35px;
+    font-weight:lighter;
+    color: #2A66D7;
   }
   
+
+
+  /* TESTIMONIES */
+  .testimony-button {
+    background-color: #2A66D7; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: add rounded corners */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer */
+    margin: 0; /* Ensure the button starts from the margin */
+    display: block; /* Make the button a block element */
+    width: 400PX; /* Button will span the full width of its container */
+  }
+  
+  .testimonies-button:hover {
+    background-color: darkblue; /* Dark blue on hover */
+  }
+  
+
+
+
+  /* Testimony content */
+
+/* Testimony Section */
+.testimony-container {
+    position: relative; /* Position relative for absolute positioning of overlay */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between the two sides */
+    align-items: flex-start; /* Align items at the start */
+    margin-top: 20px; /* Space above the section */
+    background-image: url('../assets/images/backgroundimage.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+}
+
+/* Overlay */
+.testimony-container::before {
+    content: ""; /* Required for pseudo-element */
+    position: absolute; /* Position it absolutely */
+    top: 0; /* Cover the entire container */
+    left: 0; /* Cover the entire container */
+    right: 0; /* Cover the entire container */
+    bottom: 0; /* Cover the entire container */
+    background-color: rgba(0, 0, 255, 0.5); /* Blue color with transparency */
+    z-index: 1; /* Place it above the background image */
+}
+
+.testimony-left, .testimony-right {
+    position: relative; /* Position relative for z-index */
+    z-index: 2; /* Place it above the overlay */
+    width: 45%; /* Set width for each side */
+    text-align: center; /* Center text */
+    color: white;
+}
+
+.testimony-image {
+    width: 100%; /* Make image responsive */
+    max-width: 200px; /* Set a max width for the image */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin-top: 20px;
+}
+
+.vertical-divider {
+    width: 1px; /* Width of the vertical line */
+    background-color: #ccc; /* Color of the line */
+    height: 400px; /* Height of the line */
+}
+
+.testimony-title {
+    font-weight: bold; /* Bold title */
+    margin: 10px 0; /* Space above and below the title */
+}
+
+.testimony-container p {
+    margin: 10px 0; /* Space above and below the paragraph */
+    color: white; /* Text color */
+    line-height: 30px;
+}
+
+.testimony-left p,
+.testimony-right p {
+    margin: 10px 0; /* Space above and below the paragraph */
+    color: white; /* Text color */
+    line-height: 1.9; /* Adjust line height for better readability */
+    overflow-wrap: break-word; /* Allows long words to break */
+    word-wrap: break-word; /* Fallback for older browsers */
+    max-width: 90%; /* Set a maximum width for the paragraph */
+    text-align: left; /* Align text to the left */
+    margin-left: 100px;
+}
+
+.more{
+    background-color: #CCD4FE;
+    border-color: #CCD4FE;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
