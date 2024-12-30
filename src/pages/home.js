@@ -5,6 +5,8 @@ import eventImage from "../assets/images/word2.jpeg"; // Event image
 import pastorImage from "../assets/images/pastor1.jpeg"; // Pastor's image
 import testimonyImage1 from "../assets/images/testimonies1.jpg"; // First testimony image
 import testimonyImage2 from "../assets/images/testimony2.jpg"; // Second testimony image
+import blogImageLeft from "../assets/images/new-church.jpg"; // Replace with your actual image path
+import blogImageRight from "../assets/images/rhema-life.jpg"; // Replace with your actual image path
 // import crownImage from "../assets/images/crown.jpg"; // Import the image
 
 const HomePage = () => {
@@ -178,6 +180,41 @@ const HomePage = () => {
         <h2 className="head">Give Your Life to Christ Today!</h2>
         <p>Click here to know how</p>
     </div>
+</div>
+
+
+{/* BLOGS */}
+<div className="blog-container">
+  <button className="blog-button">Christos Rhema Blogs</button>
+  
+  <div className="blog-content">
+    {/* Left Blog Section */}
+    <div className="blog-left">
+      <img src={blogImageLeft} alt="Blog Left" className="blog-image" />
+      <h3>Embracing God's Timing: Trusting in His Perfect Plan</h3>
+      <p>
+        In our fast-paced world, it's easy to feel frustrated when things don’t go as we planned. 
+        But as believers, we are called to trust in God’s timing—a timing that’s often different 
+        from our own but always perfect. In this blog, we’ll explore biblical stories of those 
+        who waited faithfully on God, the lessons we can learn from them, and practical ways 
+        to deepen our trust when we feel tempted to rush ahead. Discover how embracing His 
+        timing not only strengthens our faith but brings us peace and purpose in the waiting.
+      </p>
+    </div>
+
+    {/* Right Blog Section */}
+    <div className="blog-right">
+      <img src={blogImageRight} alt="Blog Right" className="blog-image" />
+      <h3>Embracing God's Timing: Trusting in His Perfect Plan</h3>
+      <p>
+        In our fast-paced world, it's easy to feel frustrated when things don’t go as we planned. 
+        But as believers, we are called to trust in God’s timing—a timing that’s often different 
+        from our own but always perfect. In this blog, we’ll explore biblical stories of those 
+        who waited faithfully on God, the lessons we can learn from them, and practical ways 
+        to deepen our trust when we feel tempted to rush ahead. Discover how embracing His 
+        timing not only strengthens our faith but brings us peace and purpose in the waiting.
+      </p>
+    </div>  </div>
 </div>
 </div>
     </div>

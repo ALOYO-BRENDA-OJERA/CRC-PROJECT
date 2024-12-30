@@ -462,3 +462,58 @@ margin-right:65px
     color: black;
 
 }
+
+
+
+/* BLOGS */
+.blog-button {
+    width: 500px;
+    background-color: #2A66D7;
+    padding: 10px;
+    border: none; /* Changed to 'none' for a cleaner look */
+    color: white;
+    font-size: 18px;
+    margin-right: 900px auto; /* Center the button */
+    
+}.blog-button {
+    width: 500px; /* Keep the width as needed */
+    background-color: #2A66D7;
+    padding: 10px;
+    border: none; /* Changed to 'none' for a cleaner look */
+    color: white;
+    font-size: 18px;
+    margin: 20px 0; /* Set vertical margin, remove horizontal margin */
+    display: block; /* Make the button a block element */
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.blog-left, .blog-right {
+    width: 45%; /* Adjust width as needed */
+    text-align: center;
+    padding: 10px; /* Add some padding for better spacing */
+}
+
+.blog-image {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+    margin-bottom: 10px; /* Add space below the image */
+}
+
+/* Ensure text wraps naturally */
+.blog-left h3, .blog-right h3 {
+    font-size: 20px; /* Adjust font size as needed */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.blog-left p, .blog-right p {
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.5; /* Improve readability */
+    margin: 0; /* Remove default margin */
+    padding: 0 10px; /* Add horizontal padding for better spacing */
+    color: black;
+}
