@@ -466,16 +466,9 @@ margin-right:65px
 
 
 /* BLOGS */
-.blog-button {
-    width: 500px;
-    background-color: #2A66D7;
-    padding: 10px;
-    border: none; /* Changed to 'none' for a cleaner look */
-    color: white;
-    font-size: 18px;
-    margin-right: 900px auto; /* Center the button */
+
     
-}.blog-button {
+.blog-button {
     width: 500px; /* Keep the width as needed */
     background-color: #2A66D7;
     padding: 10px;
@@ -517,3 +510,34 @@ margin-right:65px
     padding: 0 10px; /* Add horizontal padding for better spacing */
     color: black;
 }
+
+
+
+
+/* MINISTRY ARMS */
+
+.ministry-arms-button{
+    width: 500px; /* Keep the width as needed */
+    background-color: #2A66D7;
+    padding: 10px;
+    border: none; /* Changed to 'none' for a cleaner look */
+    color: white;
+    font-size: 18px;
+    margin: 20px 0; /* Set vertical margin, remove horizontal margin */
+    display: block; /* Make the button a block element */
+}
+
+.arm-images {
+    display: flex; /* Use flexbox to lay out images horizontally */
+    gap: 150px;
+    margin-top: 20px; /* Add some space above the images */
+    margin-left: 200px;
+  }
+  
+  .arm-image {
+    width: 150px; /* Set a fixed width for the images */
+    height: 100px; /* Maintain aspect ratio */
+    /* Add some horizontal margin between images */
+    border-radius: 10px;
+    
+  }

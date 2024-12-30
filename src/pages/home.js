@@ -7,6 +7,10 @@ import testimonyImage1 from "../assets/images/testimonies1.jpg"; // First testim
 import testimonyImage2 from "../assets/images/testimony2.jpg"; // Second testimony image
 import blogImageLeft from "../assets/images/new-church.jpg"; // Replace with your actual image path
 import blogImageRight from "../assets/images/rhema-life.jpg"; // Replace with your actual image path
+import armImage1 from "../assets/images/children.jpg"; // Replace with your actual image path
+import armImage2 from "../assets/images/choir.jpg"; // Replace with your actual image path
+import armImage3 from "../assets/images/feast.jpg"; // Replace with your actual image path
+import armImage4 from "../assets/images/youth.jpg"; // Replace with your actual image path
 // import crownImage from "../assets/images/crown.jpg"; // Import the image
 
 const HomePage = () => {
@@ -215,6 +219,18 @@ const HomePage = () => {
         timing not only strengthens our faith but brings us peace and purpose in the waiting.
       </p>
     </div>  </div>
+
+
+{/* MINISTRY ARMS */}
+<div>
+  <button className="ministry-arms-button">Ministry Arms</button>
+  <div className="arm-images">
+    <img src={armImage1} alt="Ministry Arm 1" className="arm-image" />
+    <img src={armImage2} alt="Ministry Arm 2" className="arm-image" />
+    <img src={armImage3} alt="Ministry Arm 3" className="arm-image" />
+    <img src={armImage4} alt="Ministry Arm 4" className="arm-image" />
+  </div>
+</div>
 </div>
 </div>
     </div>
