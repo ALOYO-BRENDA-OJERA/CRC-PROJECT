@@ -91,21 +91,22 @@ const HomePage = () => {
         ></div>
 
         {/* Right Section: Pray with Pastor */}
-        <div className="right-section">
-          <button className="right-button">Pray with Pastor David</button>
-          <div className="pastor-section">
-            <img
-              src={pastorImage}
-              alt="Pastor David"
-              className="rounded-image"
-            />
-            <div className="pastor-text">
-              <p>Join Pastor David Omongole</p>
-              <p>every Monday, Wednesday and</p>
-              <p>Friday for a time of prayer</p>
-              <p>Click ....</p>
+<div className="right-section">
+    <button className="right-button">Pray with Pastor David</button>
+    <div className="pastor-section">
+        <img
+            src={pastorImage}
+            alt="Pastor David"
+            className="rounded-image"
+        />
+        <div className="pastor-text">
+            <p>Join Pastor David Omongole</p>
+            <p>every Monday, Wednesday and</p>
+            <p>Friday for a time of prayer</p>
+            <p>Click ....</p>
+        
               {/* Cornet Section */}
-              <div className="cornet">
+              <div className="cornet-section">
                 <button className="cornet-button">Daily Cornet</button>
                 <h6>The Daily Cornet Devotional</h6>
                 <p>The Cornet Daily Devotional is packaged with the word of God 
