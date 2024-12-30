@@ -5,6 +5,7 @@ import eventImage from "../assets/images/word2.jpeg"; // Event image
 import pastorImage from "../assets/images/pastor1.jpeg"; // Pastor's image
 import testimonyImage1 from "../assets/images/testimonies1.jpg"; // First testimony image
 import testimonyImage2 from "../assets/images/testimony2.jpg"; // Second testimony image
+// import crownImage from "../assets/images/crown.jpg"; // Import the image
 
 const HomePage = () => {
   const [wordOfMonth, setWordOfMonth] = useState(null);
@@ -165,6 +166,19 @@ const HomePage = () => {
       <button className="more">Click for more...</button>
     </div>
   </div>
+
+
+
+  {/* Give your life to Christ */}
+{/* Give your life to Christ */}
+<div className="call-to-action">
+    <div className="image-container">
+        {/* <img src={crownImage} alt="Crown" className="call-to-action-image" /> */}
+        <div className="overlay"></div>
+        <h2 className="head">Give Your Life to Christ Today!</h2>
+        <p>Click here to know how</p>
+    </div>
+</div>
 </div>
     </div>
   );

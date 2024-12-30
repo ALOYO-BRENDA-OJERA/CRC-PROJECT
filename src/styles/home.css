@@ -419,12 +419,14 @@ margin-right:65px
 .testimony-title {
     font-weight: bold; /* Bold title */
     margin: 10px 0; /* Space above and below the title */
+    font-size: 18px;
 }
 
 .testimony-container p {
     margin: 10px 0; /* Space above and below the paragraph */
     color: white; /* Text color */
     line-height: 30px;
+    font-size: 16px;
 }
 
 .testimony-left p,
@@ -446,4 +448,17 @@ margin-right:65px
     border-radius: 10px;
     font-size: 16px;
     margin-left: 10px;
+}
+
+
+
+/* call to action */
+.call-to-action, p{
+    color: #0C078F;
+    font-size: 16px;
+}
+
+.head{
+    color: black;
+
 }
