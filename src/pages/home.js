@@ -58,10 +58,7 @@ const HomePage = () => {
       </div>
 
       {/* Buttons and Information Section */}
-      <div
-        className="button-container"
-        style={{ display: "flex", alignItems: "flex-start", marginTop: "20px" }}
-      >
+      <div className="button-container">
         {/* Left Section: Ministry Events */}
         <div>
           <button className="left-button">Christos Rhema Ministry Events</button>
@@ -80,42 +77,42 @@ const HomePage = () => {
         </div>
 
         {/* Divider */}
-        <div
-          className="vertical-line"
-          style={{
-            width: "1px",
-            height: "40%",
-            backgroundColor: "#ccc",
-            margin: "0 20px",
-          }}
-        ></div>
+        <div className="vertical-line"></div>
 
         {/* Right Section: Pray with Pastor */}
-<div className="right-section">
-    <button className="right-button">Pray with Pastor David</button>
-    <div className="pastor-section">
-        <img
-            src={pastorImage}
-            alt="Pastor David"
-            className="rounded-image"
-        />
-        <div className="pastor-text">
-            <p>Join Pastor David Omongole</p>
-            <p>every Monday, Wednesday and</p>
-            <p>Friday for a time of prayer</p>
-            <p>Click ....</p>
-        
+        <div className="right-section">
+          <button className="right-button">Pray with Pastor David</button>
+          <div className="pastor-section">
+            <img src={pastorImage} alt="Pastor David" className="rounded-image" />
+            <div className="pastor-text">
+              <p>Join Pastor David Omongole</p>
+              <p>every Monday, Wednesday and</p>
+              <p>Friday for a time of prayer</p>
+              <p>Click ....</p>
+
               {/* Cornet Section */}
               <div className="cornet-section">
                 <button className="cornet-button">Daily Cornet</button>
                 <h6>The Daily Cornet Devotional</h6>
-                <p>The Cornet Daily Devotional is packaged with the word of God 
-                to guide you in your walk with God and to enhance your Spiritual growth.</p>
+                <p>
+                  The Cornet Daily Devotional is packaged with the word of God
+                  to guide you in your walk with God and to enhance your
+                  Spiritual growth.
+                </p>
                 <button className="read-button">Read</button>
               </div>
             </div>
           </div>
         </div>
+      </div>
+
+      {/* New Section: Pastor David Omongole Digital Library */}
+      <div className="digital-library-section">
+        <hr className="divider" />
+        <h2 className="digital-library-heading">
+          Pastor David Omongole Digital Library
+        </h2>
+        <hr className="divider" />
       </div>
     </div>
   );
