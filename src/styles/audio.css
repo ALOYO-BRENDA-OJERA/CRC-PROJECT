@@ -1,0 +1,55 @@
+/* audio.css */
+.audio-sermons {
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+  
+  .main-heading {
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgb(88, 140, 236);
+  }
+  
+  .sub-headings {
+    display: flex;
+    justify-content: center; /* This centers the subheadings */
+    margin-top: 20px;
+    width: 100%; /* Ensures the container takes full width */
+  }
+  
+  .left-heading,
+  .right-heading {
+    color: black;
+  }
+  
+  .left-heading {
+    text-align: left;
+    margin-right: 300px; /* Optional: Adds space between the subheadings */
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: rgb(88, 140, 236);
+  }
+  
+  .right-heading {
+    text-align: right;
+    margin-left: 300px; /* Optional: Adds space between the subheadings */
+    font-weight: lighter;
+    font-size: 1.0rem;
+    color: rgb(88, 140, 236);
+    font-weight: bold;
+  }
+  
+  /* Box container with blue border */
+  .sermon-box {
+    border: 2px solid blue; /* Blue border */
+    padding: 20px; /* Adds space inside the box */
+    width: 1300px;
+    height: 1000px;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Adds space between the sub-headings and the box */
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+    text-align: left; /* Aligns the content to the left */
+  }
+  

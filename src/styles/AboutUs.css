@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     
-    color: #333; /* Darker text color for better readability */
+    color: black; /* Darker text color for better readability */
     line-height: 1.4; /* Adjusted line height for the body */
 }
 
@@ -55,7 +55,7 @@ p {
     text-align: justify;
     margin-bottom: 15px;
     line-height: 1.2; /* Reduced line height */
-    color: #333; /* Ensure paragraph text is dark */
+    color: black; /* Ensure paragraph text is dark */
 }
 
 /* Catchy Phrase */
@@ -72,7 +72,7 @@ p {
     list-style: none;
     padding-left: 0;
     margin-top: 20px;
-    color: #333; /* Dark text for readability */
+    color: black; /* Dark text for readability */
     font-size: 0.9rem;
 }
 
@@ -81,35 +81,35 @@ p {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    color: #333; /* Dark text for readability */
+    color: black; /* Dark text for readability */
 }
 
 .about-us ul li strong {
     font-weight: bold;
     margin-right: 10px;
     color: #007bff; /* Blue color for strong text */
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .about-us ul li ul {
     margin-top: 5px;
     margin-left: 20px;
-    color: #333; /* Dark text for readability */
+    color: black; /* Dark text for readability */
     font-size: 0.9rem;
 }
 
 .about-us ul li ul li {
     font-size: 1rem;
-    margin-bottom: 5px;
-    color: #333; /* Dark text for readability */
+    margin-bottom: 1px;
+    color: black; /* Dark text for readability */
 }
 
 /* Church Details Section */
 .church-details {
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 20px;
     font-size: 0.9rem;
-    color: #333; /* Dark text for readability */
+    color: black; /* Dark text for readability */
 }
 
 .church-info {
@@ -117,14 +117,14 @@ p {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    color: #333; /* Dark text for readability */
+    color: black; /* Dark text for readability */
     font-size: 0.9rem;
 }
 
 .church-image, .pastor-info {
     flex: 1;
     padding: 20px;
-    color: #333; /* Dark text for readability */
+    color: black; /* Dark text for readability */
 }
 
 /* Reduce the size of the pastor's image */
