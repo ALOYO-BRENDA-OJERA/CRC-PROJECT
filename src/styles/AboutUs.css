@@ -1,0 +1,264 @@
+/* General Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: black; /* Set default text color to black */
+    line-height: 1.4; /* Adjusted line height for the body */
+    
+}
+
+/* About Us Section */
+.about-us {
+    width: calc(100% - 320px);
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: white;
+    color: black; /* Ensure text in this section is black */
+    
+}
+
+.about-us * {
+    
+    line-height: 1.4rem;
+    color: black; /* Ensure all nested text is black */
+    font-family: 'Poppins', sans-serif; /* Consistent font family */
+    font-size: 1.0rem;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.about-us-title {
+    
+    text-align: left;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: black;
+    font-size: 0.9rem;
+    
+}
+
+h2 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: black;
+}
+
+p {
+    font-size: 0.9rem;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.2; /* Reduced line height */
+    color: black; /* Ensure paragraph text is black */
+}
+
+/* Catchy Phrase */
+.catchy-phrase {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Service Times Styling */
+.about-us ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.about-us ul li {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.about-us ul li strong {
+    font-weight: bold;
+    margin-right: 10px;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.about-us ul li ul {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.about-us ul li ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: black;
+}
+
+
+
+
+/* Church Details Section */
+.church-details {
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.church-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.church-image, .pastor-info {
+    flex: 1;
+    padding: 20px;
+    color: black;
+}
+
+/* Reduce the size of the pastor's image */
+.pastor-mama-img {
+    width: 500px; /* Make the image responsive */
+    height: 300px;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    margin-right: 200px;
+}
+
+
+/* INFOR BELOW THE PASTOR IMAGE */
+/* AboutUs.css */
+
+/* AboutUs.css */
+
+.info {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px;            /* Add more spacing inside the container */
+    border-radius: 8px;       /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    color: #333;              /* Dark text for readability */
+    margin: 20px auto;        /* Center the container with spacing on top */
+    line-height: 1.8;         /* Increase line spacing for better readability */
+    width: 90%;               /* Adjust container width for responsiveness */
+    max-width: 1200px;        /* Prevent the container from becoming too wide */
+    text-align: justify;      /* Align text for a clean, organized look */
+  }
+  
+  .info h2 {
+    color: #2c3e50;           /* Darker color for headings */
+    font-size: 1.8rem;        /* Slightly larger font for section headings */
+    margin-bottom: 15px;      /* Add space below headings */
+    text-align: left;         /* Align headings to the left */
+  }
+  
+  .info p {
+    margin-bottom: 15px;      /* Space between paragraphs */
+    font-size: 1rem;          /* Standardize font size for readability */
+    text-align: justify;      /* Neatly justify paragraphs */
+  }
+  
+  .info ul {
+    margin: 15px 0;           /* Add spacing around lists */
+    padding-left: 20px;       /* Indent list items for clarity */
+  }
+  
+  .info li {
+    margin-bottom: 10px;      /* Add space between list items */
+    font-size: 1rem;          /* Match list font size to paragraphs */
+  }
+  
+  .info strong {
+    color: black;           /* Highlight important text */
+    font-weight: bold;  
+    margin-left: 0px;      /* Make it stand out */
+  }
+  
+  .info a {
+    color: #007bff;           /* Make links stand out */
+    text-decoration: none;    /* Remove underline from links */
+    
+  }
+  
+  .info a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+  }
+  
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us {
+        width: 100%;
+        padding: 20px 15px;
+        color: black;
+    }
+
+    .about-us-title {
+        font-size: 2rem;
+        color: black;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    p {
+        font-size: 0.9rem;
+        color: black;
+    }
+
+    .catchy-phrase {
+        font-size: 1rem;
+        color: black;
+    }
+
+    .about-us ul li {
+        font-size: 1rem;
+        color: black;
+    }
+
+    .about-us ul li ul li {
+        font-size: 0.9rem;
+        color: black;
+    }
+
+    .church-info {
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        font-size: 0.9rem;
+    }
+
+    .church-image, .pastor-info {
+        padding: 10px;
+        color: black;
+    }
+
+    .church-img, .pastor-img {
+        width: 80%;
+    }
+
+    .branch-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .branch-img {
+        max-width: 100%;
+    }
+}

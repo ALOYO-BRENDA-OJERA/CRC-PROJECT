@@ -113,3 +113,70 @@
   cursor: pointer;
   color: #fff;
 }
+
+
+
+
+/* General Dropdown Styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below the dropdown toggle */
+  left: 0; /* Align to the left */
+  /* background-color: #afa8d8; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  border-radius: 4px;
+  width: 200px; /* Optional: set a fixed width */
+}
+
+.dropdown-menu li {
+  padding: 8px 16px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%; /* Ensure links span the full width */
+}
+
+/* .dropdown-menu li:hover {
+  background-color: #f1f1f1;
+} */
+
+/* Show Dropdown Menu on Active */
+.dropdown-menu.show {
+  display: block;
+}
+
+/* Dropdown Toggle Styling */
+.dropdown-toggle {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.dropdown-toggle:hover {
+  background-color: rgb(158, 158, 218);
+  border-radius: 4px;
+}
+
+
+
+/* additional styling */
+.home-link {
+  margin-top: 7px; /* Adjust the value as needed */
+}
+
+.give-link {
+  margin-top: 7px; /* Adjust the value as needed */
+}
+
