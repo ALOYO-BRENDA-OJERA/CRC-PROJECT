@@ -8,10 +8,9 @@
 /* Body Styling */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: white;
-    color: black; /* Set default text color to black */
-    line-height: 1.4; /* Adjusted line height for the body */
     
+    color: #333; /* Darker text color for better readability */
+    line-height: 1.4; /* Adjusted line height for the body */
 }
 
 /* About Us Section */
@@ -20,14 +19,15 @@ body {
     margin: 0 auto;
     padding: 40px 20px;
     background-color: white;
-    color: black; /* Ensure text in this section is black */
-    
+    color: #333; /* Ensure text in this section is dark */
+    border: 1px solid #bed1e6; /* Blue border for emphasis */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .about-us * {
-    
     line-height: 1.4rem;
-    color: black; /* Ensure all nested text is black */
+    color: #333; /* Ensure all nested text is dark */
     font-family: 'Poppins', sans-serif; /* Consistent font family */
     font-size: 1.0rem;
     margin-left: 100px;
@@ -35,13 +35,11 @@ body {
 }
 
 .about-us-title {
-    
     text-align: left;
     margin-bottom: 10px;
     text-decoration: underline;
-    color: black;
-    font-size: 0.9rem;
-    
+    color: #007bff; /* Blue color for the title */
+    font-size: 1.2rem; /* Increased font size for emphasis */
 }
 
 h2 {
@@ -49,7 +47,7 @@ h2 {
     text-align: left;
     margin-top: 30px;
     text-decoration: underline;
-    color: black;
+    color: #007bff; /* Blue color for headings */
 }
 
 p {
@@ -57,7 +55,7 @@ p {
     text-align: justify;
     margin-bottom: 15px;
     line-height: 1.2; /* Reduced line height */
-    color: black; /* Ensure paragraph text is black */
+    color: #333; /* Ensure paragraph text is dark */
 }
 
 /* Catchy Phrase */
@@ -66,7 +64,7 @@ p {
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
-    color: black;
+    color: #007bff; /* Blue color for catchy phrases */
 }
 
 /* Service Times Styling */
@@ -74,7 +72,7 @@ p {
     list-style: none;
     padding-left: 0;
     margin-top: 20px;
-    color: black;
+    color: #333; /* Dark text for readability */
     font-size: 0.9rem;
 }
 
@@ -83,38 +81,35 @@ p {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    color: black;
+    color: #333; /* Dark text for readability */
 }
 
 .about-us ul li strong {
     font-weight: bold;
     margin-right: 10px;
-    color: black;
+    color: #007bff; /* Blue color for strong text */
     font-size: 0.9rem;
 }
 
 .about-us ul li ul {
     margin-top: 5px;
     margin-left: 20px;
-    color: black;
+    color: #333; /* Dark text for readability */
     font-size: 0.9rem;
 }
 
 .about-us ul li ul li {
     font-size: 1rem;
     margin-bottom: 5px;
-    color: black;
+    color: #333; /* Dark text for readability */
 }
-
-
-
 
 /* Church Details Section */
 .church-details {
     margin-top: 40px;
     padding: 20px;
     font-size: 0.9rem;
-    color: black;
+    color: #333; /* Dark text for readability */
 }
 
 .church-info {
@@ -122,10 +117,28 @@ p {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    color: black;
+    color: #333; /* Dark text for readability */
     font-size: 0.9rem;
 }
 
+.church-image, .pastor-info {
+    flex: 1;
+    padding: 20px;
+    color: #333; /* Dark text for readability */
+}
+
+/* Reduce the size of the pastor's image */
+.pastor-mama-img {
+    width: 500px; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    margin-right: 200px;
+}
+
+/* Info Below the Pastor Image */
+.info {
+    background-color: #e6f7ff; /* Light blue background for contrast */
+    padding: 20px;   }         /* Add more spacing inside*/
 .church-image, .pastor-info {
     flex: 1;
     padding: 20px;
@@ -199,7 +212,45 @@ p {
   .info a:hover {
     text-decoration: underline; /* Add underline on hover for links */
   }
+
+
+
+
+
   
+  
+  .branch-locations {
+    display: flex;
+    flex-direction: column; /* Stack the branch groups vertically */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Centers the content horizontally */
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .branch-group {
+    display: flex;
+    justify-content: center; /* Centers the branch items horizontally */
+    margin-bottom: 20px;
+    width: 100%;
+    margin-right: 150px;
+  }
+  
+  .branch {
+    margin-left: 10px; /* Optional: Adds space between the images */
+  }
+  
+  .branch-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .about-us {
