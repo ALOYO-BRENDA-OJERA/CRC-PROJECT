@@ -84,36 +84,104 @@ const AboutUs = () => {
           <div className="branch-group">
             <div className="branch">
               <img src={churchImage1} alt="Kampala Branch" className="branch-img" />
+              
+              <div className='contact'>
+              <p>Pastor Omongole David Omongole</p>
+              <p>Makerere, Kikoni-C</p>
+              <p>Along Sir Apollo Kagwa Road. Take the road opposite MBI.</p>
+              <p>+256 393 206 175 | + 256 706 905 656</p>
+              </div>
+
+
             </div>
             <div className="branch">
               <img src={churchImage2} alt="Mbarara Branch" className="branch-img" />
+              <div className='contact'>
+              <p>Pastor Edgar Twasiima</p>
+              <p>Ankole Institute, Near River Rwizi Bridge.</p>
+              <p>Along Mbarara - Kabale Highway, In Rwebikoona, Mbarara.</p>
+              <p>+256 394 721 640 | +256 200 903 974
+              </p>
+              </div>
             </div>
           </div>
           
           <div className="branch-group">
             <div className="branch">
               <img src={churchImage3} alt="Jinja Branch" className="branch-img" />
+              <div className='contact'>
+              <p>Pastor Mathias Suuna </p>
+              <p>Merona Hotel (First Floor).</p>
+              <p>Along Jinja - Kamuli Highway, just after Milo Mbili round about.</p>
+              <p>+256 785 496 693 | +256 704 696 024
+              </p>
+              </div>
             </div>
             <div className="branch">
               <img src={churchImage4} alt="Kireka Branch" className="branch-img" />
+              <div className='contact'>
+              <p>Pastor Bright Kazirimu</p>
+              
+              <p>Next to GoodWays DayCare and Nursery School (First floor).
+              </p>
+              <p>Along Kireka - Namugongo Road.
+              </p>
+              <p>+256 785 790 004 | +256 709 587 558
+              </p>
+              </div>
             </div>
           </div>
 
           <div className="branch-group">
             <div className="branch">
               <img src={churchImage5} alt="Soroti Branch" className="branch-img" />
+              <div className='contact'>
+              <p>Pastor John Paul Omeri
+              </p>
+              <p>Atotti Annex, Opposite Voice of Teso Radio Station.
+              </p>
+              
+              <p>+256 787 767 169 | +256 742 657 656
+              </p>
+              </div>
             </div>
             <div className="branch">
               <img src={churchImage6} alt="Gulu Branch" className="branch-img" />
+              <div className='contact'>
+              <p>Pastor Paul Engoru
+              </p>
+              <p>Ariaga East along Gulu-Kitgum highway.
+              </p>
+              <p>Next to Mmanuel Junior School.</p>
+              <p>+256 774 160 212 | +256 706 334 538
+              </p>
+              </div>
             </div>
           </div>
 
           <div className="branch-group">
             <div className="branch">
               <img src={churchImage7} alt="Wakiso Branch" className="branch-img" />
+              <div className='contact'>
+              <p>Pastor Peter Sittankya
+              </p>
+              <p>Galuleeba Plaza, 2nd Floor, in Wakiso Town.
+              </p>
+              <p>Along Hoima Road.</p>
+              <p>+256 765 021 380 | +256 752 848 593</p>
+              </div>
             </div>
             <div className="branch">
               <img src={churchImage8} alt="Tororo Branch" className="branch-img" />
+              <div className='contact'>
+              <p>Pastor Philip Ajuk
+              </p>
+             
+              <p>Flonico Hotel, Plot 29, Part Lane. Along Tororo - Mbale Road.
+              </p>
+              <p>+256 777 145 360 | +256 759 270 781
+              </p>
+              </div>
             </div>
           </div>
         </div>
